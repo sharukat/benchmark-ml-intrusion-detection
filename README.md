@@ -12,11 +12,10 @@ To run the notebooks and reproduce our analysis:
    git clone https://github.com/yourusername/ml-intrusion-detection-analysis.git
    cd ml-intrusion-detection-analysis
    ```
-
 2. **Install Dependencies**
-  ```bash
-  pip install -r requirements.txt
-  ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 3. **Launch Jupyter Notebook**
    ```bash
    jupyter notebook
