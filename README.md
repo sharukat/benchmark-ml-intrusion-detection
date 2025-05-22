@@ -38,6 +38,23 @@ The paper provides deeper theoretical context, expanded results, and detailed di
 
 ## 📊 Benchmark Results
 Below are a few snapshots highlighting key insights from our study:
+| Model      | Dataset     | Precision | Recall  | F1-score | ROC  |
+|------------|-------------|-----------|---------|----------|------|
+| DNN        | NSL-KDD     | 0.9237    | 0.6775  | 0.7817   | 0.80 |
+| DNN        | UNSW-NB15   | 0.6635    | 0.9330  | 0.7755   | 0.83 |
+| SVM (RBF)  | NSL-KDD     | 0.9276    | 0.7081  | 0.8031   | 0.82 |
+| SVM (POLY) | KDD         | 0.9248    | 0.7203  | 0.8098   | 0.82 |
+| SVM (RBF)  | UNSW-NB15   | 0.6034    | 0.9804  | 0.7470   | 0.80 |
+| SVM (POLY) | NB15        | 0.6054    | 0.9717  | 0.7460   | 0.80 |
+| K-NN       | NSL-KDD     | 0.9587    | 0.6566  | 0.7794   | 0.81 |
+| K-NN       | UNSW-NB15   | 0.6508    | 0.9382  | 0.7685   | 0.82 |
+| One-Class SVM | NSL-KDD  | 0.9739    | 0.6497  | 0.7794   | 0.82 |
+| One-Class SVM | UNSW-NB15| 0.9188    | 0.4088  | 0.5658   | 0.67 |
+| K-Means    | NSL-KDD     | 0.9847    | 0.5473  | 0.7036   | 0.76 |
+| K-Means    | UNSW-NB15   | 0.4865    | 0.9896  | 0.6523   | 0.66 |
+| EM         | NSL-KDD     | 0.9837    | 0.5557  | 0.7102   | 0.76 |
+| EM         | UNSW-NB15   | 0.5478    | 0.9953  | 0.7067   | 0.73 |
+
 
 ## 🤝 Contributing & Reproducibility
 This repository serves as a benchmark research project for evaluating machine learning algorithms in the context of intrusion detection systems using the NSL-KDD and UNSW-NB15 datasets.
