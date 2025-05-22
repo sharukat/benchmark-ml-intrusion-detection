@@ -9,7 +9,7 @@ To run the notebooks and reproduce our analysis:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/ml-intrusion-detection-analysis.git
+   git clone https://github.com/sharukat/benchmark-ml-intrusion-detection.git
    cd ml-intrusion-detection-analysis
    ```
 2. **Install Dependencies**
@@ -38,3 +38,47 @@ The paper provides deeper theoretical context, expanded results, and detailed di
 
 ## 📊 Benchmark Results
 Below are a few snapshots highlighting key insights from our study:
+
+## 🤝 Contributing & Reproducibility
+This repository serves as a benchmark research project for evaluating machine learning algorithms in the context of intrusion detection systems using the NSL-KDD and UNSW-NB15 datasets.
+
+Researchers, students, and practitioners are welcome to:
+
+- 🔁 **Replicate** the experiments
+- 🔬 **Reproduce** the results
+- 🚀 **Extend** the work with new datasets, models, or techniques
+- 🧠 **Analyze** and interpret the findings in new ways
+
+### How to Get Involved
+
+1. **Fork the repository**
+   Create your own copy by clicking the **"Fork"** button at the top right.
+
+2. **Clone your fork locally**
+   ```bash
+   git clone https://github.com/sharukat/benchmark-ml-intrusion-detection.git
+   cd ml-intrusion-detection-analysis
+   ```
+3. **Set up the environment**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4.	**Explore and modify the notebooks**
+The core experiments are implemented in Jupyter notebooks. You can run, edit, or extend them based on your research goals.
+5.	**Cite or credit the work**
+If you use or adapt this work for a publication or project, a citation or acknowledgment is appreciated. See the “Citation” section below (add this if you include a BibTeX entry).
+
+## Citation
+```
+@INPROCEEDINGS{9605814,
+  author={Thirimanne, Sharuka and Jayawardana, Lasitha and Liyanaarachchi, Pushpika and Yasakethu, Lasith},
+  booktitle={2021 10th International Conference on Information and Automation for Sustainability (ICIAfS)}, 
+  title={Comparative Algorithm Analysis for Machine Learning Based Intrusion Detection System}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={191-196},
+  keywords={Support vector machines;Deep learning;Machine learning algorithms;Automation;Supervised learning;Intrusion detection;Classification algorithms;Intrusion Detection;Supervised Learning;Semi-supervised Learning;Unsupervised Learning},
+  doi={10.1109/ICIAfS52090.2021.9605814}}
+```
+   
