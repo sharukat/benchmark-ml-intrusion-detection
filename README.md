@@ -15,10 +15,12 @@ To run the notebooks and reproduce our analysis:
 
 2. **Install Dependencies**
   ```bash
-   pip install -r requirements.txt
-   ```
+  pip install -r requirements.txt
+  ```
 3. **Launch Jupyter Notebook**
-   ```jupyter notebook```
+   ```bash
+   jupyter notebook
+   ```
 
 ## 💻 Technology Stack
 <p align="center">
