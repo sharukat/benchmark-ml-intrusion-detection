@@ -20,7 +20,7 @@ To run the notebooks and reproduce our analysis:
 3. **Launch Jupyter Notebook**
    ```jupyter notebook```
 
-## Technology Stack
+## 💻 Technology Stack
 <p align="center">
   <a href="https://go-skill-icons.vercel.app/">
     <img
@@ -31,7 +31,7 @@ To run the notebooks and reproduce our analysis:
 
 ## 📘 Want to Dive Deeper?
 This work was the foundation for a published research paper:
-“Comparative Algorithm Analysis for Machine Learning-Based Intrusion Detection Systems” → [Read the full paper here]([Insert actual paper link](https://ieeexplore.ieee.org/abstract/document/9605814?casa_token=_VcB5EJepk0AAAAA:E3E-Pt2RzwLDDlzaGyACqr2nnh-H-0L8aPLV_purSv5BCxoT5mnEjH6eHWdOSnAf4P65sF3f))
+“Comparative Algorithm Analysis for Machine Learning-Based Intrusion Detection Systems” → [Read the full paper here](https://ieeexplore.ieee.org/abstract/document/9605814?casa_token=_VcB5EJepk0AAAAA:E3E-Pt2RzwLDDlzaGyACqr2nnh-H-0L8aPLV_purSv5BCxoT5mnEjH6eHWdOSnAf4P65sF3f)
 
 The paper provides deeper theoretical context, expanded results, and detailed discussions that go beyond the code.
 
